@@ -12,6 +12,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHundredDoors.App.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHundredDoors.App", "OneHundredDoors.App\OneHundredDoors.App.csproj", "{940F3DB2-CE93-4927-89BB-AAF552B7A434}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CyberDojo_Anagrams", "CyberDojo_Anagrams", "{B281D29A-146A-426C-8106-2EB41D79DF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams", "Anagrams\Anagrams.csproj", "{0C88A5F3-7B40-4451-AA7D-55DEA02F699E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams.Tests", "Anagrams.Tests\Anagrams.Tests.csproj", "{C971E2DA-9450-4C4D-94EA-692BEA2BFC3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +32,14 @@ Global
 		{940F3DB2-CE93-4927-89BB-AAF552B7A434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940F3DB2-CE93-4927-89BB-AAF552B7A434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940F3DB2-CE93-4927-89BB-AAF552B7A434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C88A5F3-7B40-4451-AA7D-55DEA02F699E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C88A5F3-7B40-4451-AA7D-55DEA02F699E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C88A5F3-7B40-4451-AA7D-55DEA02F699E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C88A5F3-7B40-4451-AA7D-55DEA02F699E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C971E2DA-9450-4C4D-94EA-692BEA2BFC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C971E2DA-9450-4C4D-94EA-692BEA2BFC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C971E2DA-9450-4C4D-94EA-692BEA2BFC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C971E2DA-9450-4C4D-94EA-692BEA2BFC3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,5 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8FEFA860-6101-464B-834C-B6D7FC297725} = {6350BD45-0A14-4116-BC2E-D952ADBA66A1}
 		{940F3DB2-CE93-4927-89BB-AAF552B7A434} = {6350BD45-0A14-4116-BC2E-D952ADBA66A1}
+		{0C88A5F3-7B40-4451-AA7D-55DEA02F699E} = {B281D29A-146A-426C-8106-2EB41D79DF1D}
+		{C971E2DA-9450-4C4D-94EA-692BEA2BFC3C} = {B281D29A-146A-426C-8106-2EB41D79DF1D}
 	EndGlobalSection
 EndGlobal
